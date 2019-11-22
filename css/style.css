@@ -1,0 +1,358 @@
+
+/*mobile device start code*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.full-area{
+    padding-bottom: 48px;
+
+    display: none;
+    margin: 0px auto;
+    width: 80%;
+
+}
+.accordion{
+    margin-top: 20px;
+    text-transform: uppercase;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    background: #2196f3;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.accordion:after{
+    content: '\02795';
+    font-size: 15px;
+    float: right;
+}
+
+.active:after{
+    content: '\2796';
+}
+
+.panel{
+    padding: 0 10px;
+    background-color: #ffff;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.time{
+    padding-bottom: 10px;
+    float: left;
+}
+.time p{
+    
+   padding-left: 10px;
+}
+.class-name{
+    text-align: center;
+}
+.class-name h4, .time h4{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    border-bottom: 2px solid  #b52e2e;
+    border-width: 5px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.class-name p, .time p{
+    border-bottom: 1px solid green;
+    
+    text-align: center;
+  
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sunday{
+    margin-top: 200px;
+}
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+    .full-area{
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .time h4{
+        font-size: 12px;
+    }   
+    .time p{
+        font-size: 12px;
+    }
+
+    .class-name h4{
+        font-size: 12px;
+    }   
+    .class-name p{
+        font-size: 12px;
+    }   
+    .table-area{
+        display: none;
+    }
+
+
+
+
+
+}
+
+/*<!-- mobile device  end code-->*/
+
+
+.Wrapper{
+    margin: 20px 0px;
+   
+}
+
+
+
+.full-table-area{
+    font-size: 12px;
+}
+.stressful {
+    background-color: darkRed;
+}
+
+.clock {
+    position: static;
+    top: 0;
+    background-color: #8a0606;
+    width: 100%;
+    text-align: center;
+   
+    right: 0%;
+    display: block;
+    transform: auto;
+    color: #fffdfd;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 7px;
+    border-radius: 25px;
+    animation:  bounceIn 2s ease-in-out 3s;
+}
+
+
+.date_div {
+    font-size: 20px;
+    letter-spacing: normal;
+    
+    
+
+}
+
+.days th h5{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+.d6, .d0, .d1, .d2, .d3, .d4{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 167px;
+    text-align: center;
+}
+.t1 h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    width: 96px;
+    text-align: center;
+}
+.runningClassStyle {
+  border-radius: 7px;
+    font-size: 16px;
+    border: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    
+}
+
+.headding h1 {
+
+     font-weight: 700;
+    font-size: 29px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+   
+    
+    padding: 5px;
+    text-align: center;
+   
+    background-image: linear-gradient(#22c1c3, lightgreen);
+    -webkit-box-shadow: 17px -2px 46px 23px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 17px -2px 46px 23px rgba(0, 0, 0, 0.21);
+    box-shadow: 17px -2px 46px 23px rgba(0, 0, 0, 0.14);
+}
+
+table {
+    border-collapse: collapse;
+    border-color: black;
+    border: solid;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid green;
+    text-align: left;
+    border-bottom: 1px solid green;
+   
+}
+
+th {
+    border: solid 3px;
+    border-color: green;
+}
+
+td:hover {
+    background-color: #cbd1cd;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.days {
+    border: solid 3px;
+    border-color: gray;
+    background-color: whitesmoke;
+    color: black;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.lecture {
+    background-color: #d4fbce;
+    color: black;
+    border: solid 1px;
+    border-color: dimgray;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.lab {
+    background-color: #d4fbce;
+    color: black;
+    border: solid 1px;
+    border-color: dimgray;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 2px 0px;
+}
+
+.name, .time {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#highlight {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.si {
+    background-color: #e6e6fa;
+    border: solid 3px;
+    border-color: limegreen;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
